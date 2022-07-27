@@ -126,6 +126,9 @@ export default Vue.extend({
   props: {
     msg: String,
   },
+  mounted() {
+    this.iAmNotDefined = iAmNotDefineder
+  }
 });
 </script>
 
